@@ -1,6 +1,6 @@
 {
   "name": "@filippofinke/reddit-ads-mcp",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "MCP server for the Reddit Ads API v3: manage campaigns, ad groups, ads, audiences, catalogs and reports from any MCP client.",
   "keywords": [
     "mcp",
