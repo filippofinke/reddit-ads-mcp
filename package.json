@@ -1,0 +1,60 @@
+{
+  "name": "reddit-ads-mcp",
+  "version": "1.0.0",
+  "description": "MCP server for the Reddit Ads API v3: manage campaigns, ad groups, ads, audiences, catalogs and reports from any MCP client.",
+  "keywords": [
+    "mcp",
+    "mcp-server",
+    "model-context-protocol",
+    "reddit",
+    "reddit-ads",
+    "reddit-ads-api",
+    "advertising",
+    "ads",
+    "marketing",
+    "ai-agents",
+    "llm",
+    "oauth2",
+    "typescript"
+  ],
+  "author": "Filippo Finke <filippofinke@protonmail.ch>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/filippofinke/reddit-ads-mcp.git"
+  },
+  "homepage": "https://github.com/filippofinke/reddit-ads-mcp#readme",
+  "bugs": {
+    "url": "https://github.com/filippofinke/reddit-ads-mcp/issues"
+  },
+  "type": "module",
+  "bin": {
+    "reddit-ads-mcp": "dist/index.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsx src/index.ts",
+    "start": "node dist/index.js",
+    "lint": "biome check .",
+    "format": "biome check --write .",
+    "typecheck": "tsc --noEmit",
+    "ci": "biome ci ."
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.31.0",
+    "open": "^11.0.4",
+    "zod": "^4.6.5"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^2.5.14",
+    "@types/node": "^22.20.4",
+    "tsx": "^4.23.15",
+    "typescript": "^5.9.3"
+  }
+}
