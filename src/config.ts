@@ -1,3 +1,4 @@
+import { createRequire } from "node:module";
 import { homedir } from "node:os";
 import { join } from "node:path";
 
@@ -8,6 +9,8 @@ function required(name: string): string {
   }
   return value;
 }
+
+const { version } = createRequire(import.meta.url)("../package.json") as { version: string };
 
 const port = Number(process.env.REDDIT_ADS_REDIRECT_PORT ?? 8765);
 
@@ -23,7 +26,8 @@ export const config = {
     process.env.REDDIT_ADS_TOKEN_PATH ??
     join(homedir(), ".config", "reddit-ads-mcp", "tokens.json"),
   defaultAccountId: process.env.REDDIT_ADS_ACCOUNT_ID,
-  userAgent: process.env.REDDIT_ADS_USER_AGENT ?? "node:reddit-ads-mcp:1.0.0",
+  version,
+  userAgent: process.env.REDDIT_ADS_USER_AGENT ?? `node:reddit-ads-mcp:${version}`,
   apiBaseUrl: "https://ads-api.reddit.com/api/v3",
   authorizeUrl: "https://www.reddit.com/api/v1/authorize",
   tokenUrl: "https://www.reddit.com/api/v1/access_token",

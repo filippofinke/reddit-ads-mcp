@@ -1,5 +1,5 @@
 {
-  "name": "reddit-ads-mcp",
+  "name": "@filippofinke/reddit-ads-mcp",
   "version": "1.0.0",
   "description": "MCP server for the Reddit Ads API v3: manage campaigns, ad groups, ads, audiences, catalogs and reports from any MCP client.",
   "keywords": [
@@ -27,13 +27,19 @@
   "bugs": {
     "url": "https://github.com/filippofinke/reddit-ads-mcp/issues"
   },
+  "mcpName": "io.github.filippofinke/reddit-ads-mcp",
   "type": "module",
   "bin": {
     "reddit-ads-mcp": "dist/index.js"
   },
   "files": [
-    "dist"
+    "dist",
+    "README.md",
+    "LICENSE"
   ],
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "build": "tsc",
     "dev": "tsx src/index.ts",
@@ -41,7 +47,8 @@
     "lint": "biome check .",
     "format": "biome check --write .",
     "typecheck": "tsc --noEmit",
-    "ci": "biome ci ."
+    "ci": "biome ci .",
+    "prepublishOnly": "npm run build"
   },
   "engines": {
     "node": ">=20"
