@@ -43,14 +43,14 @@
 claude mcp add -s user reddit-ads \
   -e REDDIT_ADS_CLIENT_ID=your_client_id \
   -e REDDIT_ADS_CLIENT_SECRET=your_client_secret \
-  -- npx -y @filippofinke/reddit-ads-mcp
+  -- npx -y @filippofinke/reddit-ads-mcp@latest
 ```
 
 or with one click:
 
-[![Install in Cursor](https://cursor.com/deeplink/mcp-install-dark.svg)](https://cursor.com/en/install-mcp?name=reddit-ads&config=eyJjb21tYW5kIjoibnB4IiwiYXJncyI6WyIteSIsIkBmaWxpcHBvZmlua2UvcmVkZGl0LWFkcy1tY3AiXSwiZW52Ijp7IlJFRERJVF9BRFNfQ0xJRU5UX0lEIjoieW91cl9jbGllbnRfaWQiLCJSRURESVRfQURTX0NMSUVOVF9TRUNSRVQiOiJ5b3VyX2NsaWVudF9zZWNyZXQifX0%3D)
-[![Install in VS Code](https://img.shields.io/badge/VS_Code-Install_Server-0098FF?style=flat-square&logo=visualstudiocode&logoColor=white)](https://insiders.vscode.dev/redirect/mcp/install?name=reddit-ads&inputs=%5B%7B%22type%22%3A%22promptString%22%2C%22id%22%3A%22reddit_ads_client_id%22%2C%22description%22%3A%22Reddit%20Ads%20client%20ID%22%7D%2C%7B%22type%22%3A%22promptString%22%2C%22id%22%3A%22reddit_ads_client_secret%22%2C%22description%22%3A%22Reddit%20Ads%20client%20secret%22%2C%22password%22%3Atrue%7D%5D&config=%7B%22command%22%3A%22npx%22%2C%22args%22%3A%5B%22-y%22%2C%22%40filippofinke%2Freddit-ads-mcp%22%5D%2C%22env%22%3A%7B%22REDDIT_ADS_CLIENT_ID%22%3A%22%24%7Binput%3Areddit_ads_client_id%7D%22%2C%22REDDIT_ADS_CLIENT_SECRET%22%3A%22%24%7Binput%3Areddit_ads_client_secret%7D%22%7D%7D)
-[![Install in VS Code Insiders](https://img.shields.io/badge/VS_Code_Insiders-Install_Server-24bfa5?style=flat-square&logo=visualstudiocode&logoColor=white)](https://insiders.vscode.dev/redirect/mcp/install?name=reddit-ads&inputs=%5B%7B%22type%22%3A%22promptString%22%2C%22id%22%3A%22reddit_ads_client_id%22%2C%22description%22%3A%22Reddit%20Ads%20client%20ID%22%7D%2C%7B%22type%22%3A%22promptString%22%2C%22id%22%3A%22reddit_ads_client_secret%22%2C%22description%22%3A%22Reddit%20Ads%20client%20secret%22%2C%22password%22%3Atrue%7D%5D&config=%7B%22command%22%3A%22npx%22%2C%22args%22%3A%5B%22-y%22%2C%22%40filippofinke%2Freddit-ads-mcp%22%5D%2C%22env%22%3A%7B%22REDDIT_ADS_CLIENT_ID%22%3A%22%24%7Binput%3Areddit_ads_client_id%7D%22%2C%22REDDIT_ADS_CLIENT_SECRET%22%3A%22%24%7Binput%3Areddit_ads_client_secret%7D%22%7D%7D&quality=insiders)
+[![Install in Cursor](https://cursor.com/deeplink/mcp-install-dark.svg)](https://cursor.com/en/install-mcp?name=reddit-ads&config=eyJjb21tYW5kIjoibnB4IiwiYXJncyI6WyIteSIsIkBmaWxpcHBvZmlua2UvcmVkZGl0LWFkcy1tY3BAbGF0ZXN0Il0sImVudiI6eyJSRURESVRfQURTX0NMSUVOVF9JRCI6InlvdXJfY2xpZW50X2lkIiwiUkVERElUX0FEU19DTElFTlRfU0VDUkVUIjoieW91cl9jbGllbnRfc2VjcmV0In19)
+[![Install in VS Code](https://img.shields.io/badge/VS_Code-Install_Server-0098FF?style=flat-square&logo=visualstudiocode&logoColor=white)](https://insiders.vscode.dev/redirect/mcp/install?name=reddit-ads&inputs=%5B%7B%22type%22%3A%22promptString%22%2C%22id%22%3A%22reddit_ads_client_id%22%2C%22description%22%3A%22Reddit%20Ads%20client%20ID%22%7D%2C%7B%22type%22%3A%22promptString%22%2C%22id%22%3A%22reddit_ads_client_secret%22%2C%22description%22%3A%22Reddit%20Ads%20client%20secret%22%2C%22password%22%3Atrue%7D%5D&config=%7B%22command%22%3A%22npx%22%2C%22args%22%3A%5B%22-y%22%2C%22%40filippofinke%2Freddit-ads-mcp%40latest%22%5D%2C%22env%22%3A%7B%22REDDIT_ADS_CLIENT_ID%22%3A%22%24%7Binput%3Areddit_ads_client_id%7D%22%2C%22REDDIT_ADS_CLIENT_SECRET%22%3A%22%24%7Binput%3Areddit_ads_client_secret%7D%22%7D%7D)
+[![Install in VS Code Insiders](https://img.shields.io/badge/VS_Code_Insiders-Install_Server-24bfa5?style=flat-square&logo=visualstudiocode&logoColor=white)](https://insiders.vscode.dev/redirect/mcp/install?name=reddit-ads&inputs=%5B%7B%22type%22%3A%22promptString%22%2C%22id%22%3A%22reddit_ads_client_id%22%2C%22description%22%3A%22Reddit%20Ads%20client%20ID%22%7D%2C%7B%22type%22%3A%22promptString%22%2C%22id%22%3A%22reddit_ads_client_secret%22%2C%22description%22%3A%22Reddit%20Ads%20client%20secret%22%2C%22password%22%3Atrue%7D%5D&config=%7B%22command%22%3A%22npx%22%2C%22args%22%3A%5B%22-y%22%2C%22%40filippofinke%2Freddit-ads-mcp%40latest%22%5D%2C%22env%22%3A%7B%22REDDIT_ADS_CLIENT_ID%22%3A%22%24%7Binput%3Areddit_ads_client_id%7D%22%2C%22REDDIT_ADS_CLIENT_SECRET%22%3A%22%24%7Binput%3Areddit_ads_client_secret%7D%22%7D%7D&quality=insiders)
 
 3. Ask your assistant _"List my Reddit ad accounts"_ and approve the Reddit consent page that opens.
 
@@ -75,7 +75,7 @@ It is a standard **stdio** MCP server published on npm, so it works with any cli
   "mcpServers": {
     "reddit-ads": {
       "command": "npx",
-      "args": ["-y", "@filippofinke/reddit-ads-mcp"],
+      "args": ["-y", "@filippofinke/reddit-ads-mcp@latest"],
       "env": {
         "REDDIT_ADS_CLIENT_ID": "your_client_id",
         "REDDIT_ADS_CLIENT_SECRET": "your_client_secret"
@@ -88,7 +88,7 @@ It is a standard **stdio** MCP server published on npm, so it works with any cli
 | Client | Where the config goes |
 | --- | --- |
 | Claude Desktop | `claude_desktop_config.json` |
-| Claude Code | `claude mcp add -s user reddit-ads -e REDDIT_ADS_CLIENT_ID=… -e REDDIT_ADS_CLIENT_SECRET=… -- npx -y @filippofinke/reddit-ads-mcp` |
+| Claude Code | `claude mcp add -s user reddit-ads -e REDDIT_ADS_CLIENT_ID=… -e REDDIT_ADS_CLIENT_SECRET=… -- npx -y @filippofinke/reddit-ads-mcp@latest` |
 | Cursor | `~/.cursor/mcp.json` or `.cursor/mcp.json` |
 | Windsurf | `~/.codeium/windsurf/mcp_config.json` |
 | Gemini CLI | `~/.gemini/settings.json` |
@@ -101,7 +101,7 @@ Codex CLI uses TOML:
 ```toml
 [mcp_servers.reddit-ads]
 command = "npx"
-args = ["-y", "@filippofinke/reddit-ads-mcp"]
+args = ["-y", "@filippofinke/reddit-ads-mcp@latest"]
 env = { REDDIT_ADS_CLIENT_ID = "your_client_id", REDDIT_ADS_CLIENT_SECRET = "your_client_secret" }
 ```
 
